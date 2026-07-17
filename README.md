@@ -1,5 +1,10 @@
-# AnalystLab Week 7 Internship Project: Weather Data Pipeline
+### AnalystLab Week 7 Internship Project: Weather Data Pipeline
 
+
+**Data Analyst:** Nwafor Chinaza  
+**Program Track:** Advanced Python for Data Analysis (Week 6)  
+**Institution:** AnalystLab Africa  
+  
 
 An automated, end-to-end Python pipeline that extracts real-time weather metrics from three major Nigerian urban hubs (Lagos, Abuja, and Port Harcourt) via the OpenWeatherMap API, transforms the data for analytical readiness, and exports the finalized dataset.
 
