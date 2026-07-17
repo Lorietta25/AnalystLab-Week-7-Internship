@@ -7,7 +7,7 @@ A lightweight, end-to-end ETL (Extract, Transform, Load) pipeline that pulls liv
 Built in Google Colab as a hands-on data engineering / data analysis exercise.
 
 
-📌 Project Overview
+## Project Overview
 
 This project automates the process of collecting real-time weather data and turning it into a clean, analysis-ready dataset. It covers the three core stages of a data pipeline:
 
@@ -17,10 +17,10 @@ Transform — Parse the JSON responses, structure them into a Pandas DataFrame, 
 Load — Export the final clean dataset to a CSV file and generate summary statistics and visualizations.
 
 
-Cities tracked: Lagos, Abuja, Port Harcourt
+## Cities tracked: Lagos, Abuja, Port Harcourt
 
 
-⚙️ Tech Stack
+## Tech Stack
 
 
 Python 3
@@ -32,7 +32,7 @@ Google Colab — development environment
 
 
 
-🔄 Pipeline Steps
+## Pipeline Steps
 
 
 Define the list of target cities.
@@ -49,18 +49,18 @@ Visualize temperature, humidity, and wind speed across cities using bar charts.
 
 📊 Sample Output
 
-### Temperature Comparison
-![Temperature Comparison](temperature_chart.png)
+## Temperature Comparison
+![Temperature Comparison](Weather_Chart1.png)
 
-### Humidity Levels
-![Humidity Levels](humidity_chart.png)
+## Humidity Levels
+![Humidity Levels](Weather_Chart2.png)
 
-### Wind Speed
-![Wind Speed](windspeed_chart.png)
+## Wind Speed
+![Wind Speed](Weather_Chart3.png)
 
-🔍 Weather Analysis & Insights
+## Weather Analysis & Insights
 
-Data captured on July 17, 2026, at 11:05 AM
+# Data captured on July 17, 2026, at 11:05 AM
 
 1. Temperature Variation
 Abuja recorded the warmest reading at 24.61°C, Lagos sat in the middle at 23.82°C, and Port Harcourt was the coolest at 22.84°C, influenced by active regional rain.
@@ -72,7 +72,7 @@ Port Harcourt registered a near-saturated 99% humidity due to active rain, Lagos
 Lagos had the strongest winds at 3.28 m/s (coastal breeze), Abuja was moderate at 2.25 m/s, and Port Harcourt was the calmest at 2.03 m/s.
 
 
-📁 Project Structure
+## Project Structure
 
 weather-etl-pipeline/
 ├── Weather_ETL_Pipeline.ipynb   # Main notebook (extract, transform, load, visualize)
@@ -83,12 +83,12 @@ weather-etl-pipeline/
 └── README.md
 
 
-⚠️ Security Note
+## Security Note
 
 The current notebook has the OpenWeather API key hardcoded directly in a cell. Before pushing this repo publicly, remove the hardcoded key, rotate it on your OpenWeather account, and switch to the environment-variable approach shown above so the key isn't exposed in your commit history.
 
 
-✅ Conclusion
+## Conclusion
 
 This project demonstrates how an automated ETL pipeline bridges the gap between raw data collection and practical analysis. By pulling live metrics from the OpenWeather API, structuring the JSON responses into a clean Pandas DataFrame, and exporting the final table to CSV, the pipeline delivers a simple, reproducible workflow for real-time weather monitoring.
 
