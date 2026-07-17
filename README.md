@@ -13,7 +13,9 @@ This project automates the process of collecting real-time weather data and turn
 
 
 Extract — Fetch live weather data from the OpenWeather API for a list of cities.
+
 Transform — Parse the JSON responses, structure them into a Pandas DataFrame, rename columns, convert data types, and check for missing values.
+
 Load — Export the final clean dataset to a CSV file and generate summary statistics and visualizations.
 
 
