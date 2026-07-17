@@ -76,10 +76,15 @@ Lagos had the strongest winds at 3.28 m/s (coastal breeze), Abuja was moderate a
 
 weather-etl-pipeline/
 ├── Weather_ETL_Pipeline.ipynb   # Main notebook (extract, transform, load, visualize)
+
 ├── weather_data.csv             # Output dataset (generated on run)
+
 ├── temperature_chart.png        # Temperature comparison chart
+
 ├── humidity_chart.png           # Humidity comparison chart
+
 ├── windspeed_chart.png          # Wind speed comparison chart
+
 └── README.md
 
 
