@@ -2,7 +2,7 @@
 
 
 **Data Analyst:** Nwafor Chinaza  
-**Program Track:** Advanced Python for Data Analysis (Week 6)  
+**Program Track:** Weather Data Pipeline   
 **Institution:** AnalystLab Africa  
   
 
